@@ -1,0 +1,30 @@
+{
+  "name": "bingchat-electron",
+  "productName": "BingChat",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": {
+    "name": "AIKit.tech",
+    "email": "hi@aikit.tech"
+  },
+  "description": "Introducing BingChat Desktop, for a seamless and convenient user experience.",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "@electron-forge/maker-deb": "^6.0.5",
+    "@electron-forge/maker-rpm": "^6.0.5",
+    "@electron-forge/maker-squirrel": "^6.0.5",
+    "@electron-forge/maker-zip": "^6.0.5",
+    "@electron-forge/publisher-github": "^6.0.5",
+    "electron": "^23.0.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
